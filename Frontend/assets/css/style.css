@@ -1,0 +1,33 @@
+/* Estilos personalizados que complementan Bootstrap */
+
+body {
+    background-color: #f4f6f8;
+}
+
+/* Contenedor principal con borde superior estilo Pokédex */
+.caja-custom {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.08);
+    border-top: 5px solid #cc0000;
+}
+
+/* Efecto de elevación suave al pasar el cursor sobre cada tarjeta */
+.card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.18) !important;
+    border-color: #cc0000 !important;
+}
+
+/* Ajuste para que los sprites pixel-art se vean nítidos */
+.sprite-pokemon {
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
+    image-rendering: pixelated;
+}
