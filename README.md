@@ -1,10 +1,10 @@
 # Pokédex Región Teselia (Gen 5) - Proyecto Web con Acceso a Base de Datos
 
 **Integrante:** Paolo Emilio Roche Albornoz  
-**Carrera:** Desarrollo de Videojuegos y Simulación Virtual - PUCV  
+**Carrera:** Desarrollo de Videojuegos  
 
 ## Descripción del Proyecto
-Aplicación web Full Stack que conecta una interfaz responsiva desarrollada con HTML5, CSS3, Bootstrap 5 y JavaScript a una base de datos relacional en MySQL (`Pokemon_gen5`) mediante una API REST construida con Node.js y Express.
+Pagina web  que conecta una interfaz desarrollada con HTML5, CSS3, Bootstrap 5 y JavaScript a una base de datos relacional en MySQL (`Pokemon_gen5`) mediante una API construida con Node.js y Express.
 
 ## Instrucciones de Instalación y Ejecución
 
